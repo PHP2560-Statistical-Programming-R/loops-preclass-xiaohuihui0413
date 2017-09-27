@@ -39,6 +39,10 @@ x
 C. Now, repeat A and B WITHOUT using a loop.
 
 ```{r}
+# A without using loop
+sum(0:1000)
+
+# B without using loop
 c<-seq(from=0,to=1000,by=2)
 sum(c)
 ```
